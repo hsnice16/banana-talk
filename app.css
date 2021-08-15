@@ -72,9 +72,6 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 1.1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
   border-top-left-radius: 5rem;
   border-top-right-radius: 5rem;
 }

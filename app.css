@@ -30,6 +30,15 @@ p {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .input-btn-output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+  }
+}
+
 #input-area {
   display: block;
   font-family: inherit;
@@ -68,6 +77,14 @@ footer {
   bottom: 0;
   border-top-left-radius: 5rem;
   border-top-right-radius: 5rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
 }
 
 footer h2 {

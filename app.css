@@ -16,6 +16,8 @@ header {
   text-align: center;
   padding: 1rem 2rem;
   font-size: 2rem;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
 }
 
 p {
@@ -64,6 +66,8 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
 }
 
 footer h2 {
